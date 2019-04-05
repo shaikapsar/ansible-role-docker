@@ -8,6 +8,8 @@ docker_repo_channel_edge_enabled: false
 docker_repo_channel_test_enabled: false
 ## name of docker package to install
 docker_pkg_name: "docker-ce"
+## version of docker package to install
+docker_pkg_version: "17.03"
 ## state of package (present, latest, exc.)
 docker_pkg_state: "present"
 ## name of docker service
