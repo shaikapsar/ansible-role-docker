@@ -10,7 +10,7 @@
 
 - name: Install Docker
   apt:
-    name: "{{ docker_pkg_name }}"
+    name: "{{ docker_pkg_name }}={{ docker_pkg_version }}"
     state: "{{ docker_pkg_state }}"
     update_cache: true
 
